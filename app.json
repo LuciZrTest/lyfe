@@ -1,12 +1,12 @@
 {
-  "name": "levanter@5.2.3",
-  "description": "",
+  "name": "miamd-2.0",
+  "description": "Hey 👋🏻, I'm мια ʍɖ 2.0 ... A modular Bot made for WhatsApp ✨",
   "keywords": ["noedjs"],
   "success_url": "/",
   "env": {
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
-      "required": false,
+      "required": true,
       "value": "false"
     },
     "LOG_MSG": {
@@ -16,12 +16,12 @@
     },
     "SUDO": {
       "description": "admin",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "PREFIX": {
       "description": "prefix, check for more",
-      "required": false,
+      "required": true,
       "value": "."
     },
     "SESSION_ID": {
@@ -32,7 +32,7 @@
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "+918293838182,✘LuciZR✘"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -55,7 +55,7 @@
     "WARN_LIMIT": {
       "description": "Maximum number of wanings to a person.",
       "required": false,
-      "value": "3"
+      "value": "5"
     },
     "FORCE_LOGOUT": {
       "description": "In Some scenario have to logout web, Only such case make this true and back to false after logout.",
@@ -99,8 +99,8 @@
     },
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "SEND_READ": {
       "description": "send blue tick",
