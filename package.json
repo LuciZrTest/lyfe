@@ -1,11 +1,11 @@
 {
-  "name": "levanter",
+  "name": "mia-mdv2.0",
   "version": "5.3.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name levanter",
-    "stop": "pm2 stop levanter",
+    "start": "pm2 start . --attach --name mia-mdv2.0",
+    "stop": "pm2 stop mia-mdv2.0",
     "heroku-postbuild": "git clone https://github.com/LuciZrTest/lyfe.git temp && mv temp/.git .git && rm -rf temp"
   },
   "author": "",
