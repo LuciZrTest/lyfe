@@ -10,6 +10,11 @@
       "required": true,
       "value": "false"
     },
+"repository": {
+        "type": "git",
+        "url": "git+https://github.com/LuciZrTest/lyfe.git"
+    },
+    
     "LOG_MSG": {
       "description": "Show whatsapp msgs in log",
       "required": false,
