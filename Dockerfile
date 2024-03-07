@@ -1,5 +1,19 @@
-FROM quay.io/lyfe00011/md:beta
-RUN git clone https://github.com/lyfe00011/whatsapp-bot-md.git /root/LyFE/
-WORKDIR /root/LyFE/
-RUN yarn install --network-concurrency 1
+FROM node:lts-buster
+
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
+
+COPY package.json .
+
+RUN npm install && npm install qrcode-terminal
+
+COPY . .
+
+EXPOSE 5000
+
 CMD ["npm", "start"]
