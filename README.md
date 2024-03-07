@@ -1,88 +1,94 @@
-### WhatsApp MD User Bot
+##  MIA MD 2.0 ⚠︎
 
-A simple WhatsApp User bot.
 
-## Setup
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I'M+Mia MD 2.0 ⚠︎;Multi+Divice+Whatsapp+Bot;Coded+By+LuciZR" alt="Typing SVG" /></a>
+  
+<p align="center">  
+  <a href="http://gg.gg/khalifa-group">
+    <img alt=LuciZR  src="https://i.imgur.com/TVhmEFY.jpeg">
+   
+</a> 
+    
+</p>
 
-1. Deploy on Heroku
-   - Click [SCAN](https://qr-hazel-alpha.vercel.app/md) and scan the QR code through the "WhatsApp Linked Devices" option in your WhatsApp app.
-   - You will get a session ID in WhatsApp, copy the ID only.
-   - If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).
-   - If you don't have a GitHub account, [sign up](https://github.com/join) now.
-   - [FORK](https://github.com/lyfe00011/whatsapp-bot-md/fork) this repository.
-   - Now [DEPLOY](https://qr-hazel-alpha.vercel.app/heroku).
+<p align="center">
+<a href="https://github.com/LuciZR"><img title="Author" src="https://img.shields.io/badge/𝑴𝑰𝑨-𝑴𝑫-black?style=for-the-badge&logo=telegram"></a>
+<p/>
+<p align="center">
+<a href="https://github.com/LuciZR?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/LuciZR?label=Followers&style=social"></a>
+<a href="https://github.com/LuciZR/Mia-Md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/LuciZR/Mia-Md?&style=social"></a>
+<a href="https://github.com/LuciZR/Mia-Md/network/members"><img title="Fork" src="https://img.shields.io/github/forks/LuciZR/Mia-Md?style=social"></></a>
+</p>
 
-2. Deploy on Koyeb
-   - Create an account on [Koyeb](https://app.koyeb.com/auth/signup). [Sign up now](https://app.koyeb.com/auth/signup).
-   - Get [DATABASE_URL](https://github.com/lyfe00011/whatsapp-bot-md/wiki/DATABASE_URL). You'll need this while deploying.
-   - Get [SESSION_ID](https://qr-hazel-alpha.vercel.app/md). Open Linked Devices in WhatsApp and [SCAN](https://qr-hazel-alpha.vercel.app/md) now.
-   - Get the Koyeb API key. [Let's Go](https://app.koyeb.com/account/api).
-   - [DEPLOY](https://qr-hazel-alpha.vercel.app/koyeb) now.
-   - Enter [Environment Variables](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables). [Read More](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables).
-   - Enter a name and click "Create Service."
+## Connect With Me
 
-3. Deploy on VPS or PC (Example here as in Ubuntu)
+<p align="center">
 
-   - Install with script
+<a href="https://api.whatsapp.com/send?phone=918293838182&text=𝙷𝚎𝚕𝚕𝚘+𝙻𝚞𝚌𝚒+𝚂𝚒𝚛"><img src="https://img.shields.io/badge/Contact Luci-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-         wget -N -O levanter.sh http://bit.ly/43JqREw && chmod +x levanter.sh && ./levanter.sh
+</p>
 
-   - Install without a script
-       - Install git, ffmpeg, and curl:
 
-             sudo apt -y update && sudo apt -y upgrade
-             sudo apt -y install git ffmpeg curl
 
-       - Install nodejs:
+## Bot Support Groups
+<p align="center">
+ 
+<a href="https://chat.whatsapp.com/HuQXSSgC80hERPfi4D4D2i"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-             sudo apt -y remove nodejs
-             curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
+</p>
 
-       - Install yarn:
+#### SETUP
 
-             npm install -g yarn
+1. Fork The Repo
+    <br>
+<a href="https://github.com/LuciZR/..../fork"><img title="𝑴𝑰𝑨 𝑴𝑫 2.0 ⚠︎" src="https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black"></a>
 
-       - Install pm2:
+2. Get Session ID (Server 1)
+    <br>
+<a href='https://qr-hazel-alpha.vercel.app/session' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
-             sudo yarn global add pm2
+## 𝑴𝑰𝑨 𝑴𝑫 2.0 Deploy Method
 
-       - Clone the repository and install packages:
+---
+### Deploy Heroku 
 
-             git clone https://github.com/lyfe00011/whatsapp-bot-md botName
-              cd botName
-               yarn install --network-concurrency 1
+<a href="https://heroku.com/deploy?=https://github.com/LuciZR/...."><img title="𝑴𝑰𝑨 𝑴𝑫 2.0 ⚠︎ Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
 
-       - Enter Environment Variables: Copy-paste the lines below (remove SESSION_ID if not needed):
+---
+### Heroku Tutorial
 
-             echo "SESSION_ID = Session_Id_you_Got_After_Scan_Dont_Add_This_Line_If_You_Can_Scan_From_Terminal_Itself
-             PREFIX = .
-             STICKER_PACKNAME = LyFE
-             ALWAYS_ONLINE = false
-             RMBG_KEY = null
-             LANGUAG = en
-             WARN_LIMIT = 3
-             FORCE_LOGOUT = false
-             BRAINSHOP = 159501,6pq8dPiYt7PdqHz3
-             MAX_UPLOAD = 200
-             REJECT_CALL = false
-             SUDO = 989876543210
-             TZ = Asia/Kolkata
-             VPS = true
-             AUTO_STATUS_VIEW = true
-             SEND_READ = true
-             AJOIN = true
-             DISABLE_START_MESSAGE = false
-             PERSONAL_MESSAGE = null" > config.env
+<a href="https://i.imgur.com/qeZ1f50.jpg"><img title="Heroku Tutorial" src="https://img.shields.io/badge/Heroku Tutorial-h?color=black&style=for-the-badge&logo=heroku"></a>
 
-    - [Read More](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables)
+---
+### Deploy Railway
 
-    - Edit the `config.env` using nano if needed. To save, press `Ctrl + O`, then press `Enter`, and to exit, press `Ctrl + X`.
+<a href="https://railway.app/new"><img title="𝑴𝑰𝑨 𝑴𝑫 ⚠︎ Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
 
-    - Start and stop the bot:
-        - To start the bot: `pm2 start . --name botName --attach --time`
-        - To stop the bot: `pm2 stop botName`
+---
+### Deploy Replit
 
-### Thanks To
+<a href="https://replit.com/github/LuciZR/...."><img title="𝑴𝑰𝑨 𝑴𝑫 2.0 ⚠︎ Deploy Replit" src="https://img.shields.io/badge/DEPLOY REPLIT-h?color=black&style=for-the-badge&logo=Replit"></a>
 
-- [Yusuf Usta](https://github.com/Quiec) for [WhatsAsena](https://github.com/yusufusta/WhatsAsena)
-- [@adiwajshing](https://github.com/adiwajshing) for [Baileys](https://github.com/adiwajshing/Baileys)
+---
+### Deploy Koyeb
+
+<a href="https://app.koyeb.com"><img title="𝑴𝑰𝑨 𝑴𝑫 2.0 ⚠︎ Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
+
+---
+   
+## 
+- This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
+- I am not responsible for banning your account.
+- Use at your own risk by keeping this warning in mind.
+
+
+<h2 align="center">  NOTICE
+</h2>
+   
+## 
+- Not For Sale
+- If A plugin's code is obfuscated , You don't have permission to edit it in any form 
+- Don't Forget to Give Credits If you are using or Reuploading My Plugins/files
+- Have A Good Day Ahead
+- 
