@@ -53,7 +53,7 @@
 ---
 ### Deploy Heroku 
 
-<a href="https://heroku.com/deploy?=https://github.com/LuciZR/...."><img title="𝑴𝑰𝑨 𝑴𝑫 2.0 ⚠︎ Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
+<a href="https://dashboard.heroku.com/new-app?template=https://github.com/LuciZrTest/lyfe"><img title="𝑴𝑰𝑨 𝑴𝑫 2.0 ⚠︎ Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
 
 ---
 ### Heroku Tutorial
