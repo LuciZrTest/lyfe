@@ -26,11 +26,7 @@
       "required": true,
       "value": ""
     },
-    "WORKTYPE": {
-      "description": "Public/Private",
-      "required": true,
-      "value": "public"
-    },
+    
     "PREFIX": {
       "description": "prefix, check for more",
       "required": true,
