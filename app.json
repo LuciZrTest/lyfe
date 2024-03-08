@@ -12,6 +12,7 @@
     },
 "repository": {
         "type": "git",
+  "description": "https://github.com/LuciZrTest/lyfe",
         "url": "git+https://github.com/LuciZrTest/lyfe.git"
     },
     
